@@ -1,0 +1,21 @@
+:root {
+  --yellowish: #fb0;
+}
+
+body .w-100 {
+  width: 100%;
+}
+body .h-100 {
+  height: 100%;
+}
+
+.btn-style {
+  color: white !important;
+  background-color: var(--yellowish) !important;
+  border: 1px solid var(--yellowish);
+  border-color: var(--yellowish);
+}
+.btn-style:hover {
+  color: var(--yellowish) !important;
+  background-color: white !important;
+}/*# sourceMappingURL=style.css.map */

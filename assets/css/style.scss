@@ -1,0 +1,87 @@
+:root {
+    --yellowish: #fb0;
+    --lightblack: #363636; 
+}
+body{
+    font-family: 'Roboto', sans-serif;
+    .cursive-font{
+        font-family: 'georgia' !important;
+    }
+    .w-100{
+        width: 100%;
+    }
+    .h-100{
+        height: 100%;
+    }
+    .title-text{
+        font-family: 'georgia', cursive;
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: var(--yellowish); 
+    }
+    .btn-style{
+        color: white !important; 
+        background-color: var(--yellowish) !important;
+        border: 1px solid var(--yellowish);
+        border-color: var(--yellowish);
+        &:hover{
+            color: var(--yellowish) !important;
+            background-color: white !important;
+        }
+    }
+    .v-data-table{
+        tr:hover{
+            cursor: pointer;
+            td{
+                color: black !important;
+            }
+        }
+    }
+}
+
+
+/* Navigation Style Starts */
+.v-list-group{
+    min-width: 14rem; 
+    .v-list-item{
+        padding: 0; 
+    }
+}
+.v-list-group.v-list-group--active{
+    .v-list-item{
+        .v-list-item__title.menuTitle{
+            color: var(--yellowish) !important;
+        }
+    }
+    .v-list-item__icon.v-list-group__header__append-icon{
+        .v-icon{
+            color: var(--yellowish) !important;
+        }
+    }
+}
+.mainNav.v-list-item--active:before{
+    background-color: transparent !important;
+}
+.mainNav.v-list-item--active{
+    .v-list-item__title{
+        color: var(--yellowish) !important;
+    }
+}
+/* Navigation Style Ends */
+
+
+
+/* Scrollbar design start */
+::-webkit-scrollbar {
+    width: 10px;
+}
+::-webkit-scrollbar-track {
+    background: #f1f1f1; 
+}
+::-webkit-scrollbar-thumb {
+    background: #888; 
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #555; 
+}
+/* Scrollbar design end */
